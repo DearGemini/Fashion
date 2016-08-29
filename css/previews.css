@@ -208,10 +208,10 @@
 	margin-left: 519px;
 }
 .runway-right{
-	position: absolute;
+	float:right;
 	width: 340px;
 	height: 500px;
-	right: 135px;
+	margin-right: 135px;
 }
 .mask{
 	position: absolute;
@@ -270,24 +270,24 @@
     padding: 20px;
 }
 .topic-image{
-	position: absolute;
-    width: 248px;
-    height: 248px;
-    margin-top: 50px;
-    right: 405px;
+position: absolute;
+width: 248px;
+height: 248px;
+margin-top: 50px;
+margin-left: 705px;
 }
 .topic-image :hover{
 	box-shadow: 0px 2px 10px #000;
 }
 .info{
     width: 230px;
-    height: 228px;
-    margin-top: 60px;
-    border-top: 1px solid #e0e0e0;
-    border-bottom: 1px solid #e0e0e0;
-    border-right: 1px solid #e0e0e0;
-    position: absolute;
-    right: 174px;
+height: 228px;
+margin-top: 60px;
+border-top: 1px solid #e0e0e0;
+border-bottom: 1px solid #e0e0e0;
+border-right: 1px solid #e0e0e0;
+position: absolute;
+margin-left: 952px;
 }
 .info a{
 	display: block;
@@ -339,11 +339,11 @@
 }
 .designer-right{
 	position: absolute;
-	width: 300px;
-	height: 500px;
-	background: url(../images/0_508.gif);
-	right: 150px;
-	margin-top: 150px;
+width: 300px;
+height: 500px;
+background: url(../images/0_508.gif);
+margin-left: 895px;
+margin-top: 150px;
 }
 .focus{
 	width: 665px;

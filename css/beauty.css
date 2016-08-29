@@ -120,9 +120,10 @@ font{12px/24px Arial, 'Microsoft Yahei',"宋体", sans-serif;}
 }
 .topic-list .title{
 	font-size: 18px;
-    padding-bottom: 12px;
-    font-weight: bolder;
-    display: block;
+padding-bottom: 12px;
+font-weight: bolder;
+display: block;
+padding-left: 20px;
 }
 .tl-content{
 	border-top: 1px solid #e3e3e3;
@@ -259,7 +260,6 @@ font{12px/24px Arial, 'Microsoft Yahei',"宋体", sans-serif;}
     margin-top: 9px;
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
-    border-right: 1px solid #e0e0e0;
     position: relative;
 }
 .item-title{

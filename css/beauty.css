@@ -1,0 +1,326 @@
+a{color: #000;}
+a:hover{color: #e00024;}
+font{12px/24px Arial, 'Microsoft Yahei',"宋体", sans-serif;}
+.header{
+    position: relative;
+    margin-top: 15px;
+	width: 100%;
+	height: 500px;
+	background: url(../images/9.png);
+	box-shadow: 0px 5px 15px;
+}
+.skin{
+	position: relative;
+	width: 100%;
+	height:640px ;
+}
+.hd{
+	width: 100%;
+	height:87px ;
+	position: absolute;
+	margin-top: 40px;
+}
+.line{
+	width: 100%; 
+    height: 1px;
+    color: #aaa;
+    position: absolute;
+    top: 38%;
+    z-index: -1;
+}
+.skin-lg{
+	width: 408px;
+	height: 87px;
+	background:url(../images/title-beauty.jpg) no-repeat 0 0;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.main{
+	position: absolute;
+	width: 685px;
+	height: 500px;
+	margin-top: 140px;
+	margin-left: 175px;
+}
+.title-mask{
+	width: 685px;
+	height: 95px;
+	position: absolute;
+    margin-top: -105px;
+    text-align: center;
+    background: url(../images/mask685.png);
+}
+.title-mask a{
+	color: #fff;
+    font-size: 30px;
+    display: block;
+    margin: 20px auto 15px auto;
+    text-shadow: 1px 1px 3px #000;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 30px;
+}
+.des{
+	color: #fff;
+    font-size: 14px;
+    width: 645px;
+    overflow: hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 20px;
+}
+.adsame{
+	position: absolute;
+	width: 300px;
+	height: 500px;
+	right: 175px;
+    margin-top: 140px;
+}
+.care{
+	position: relative;
+	width: 100%;
+	height: 440px;
+}
+.module-bd{
+	width: 1000px;
+	height: 385.5px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.imgcard{
+	width: 270px;
+    border: 1px solid #d8d8d8;
+    padding: 12px 16px 0;
+    float: left;
+    margin-right: 44px;
+    transition: all .15s;
+}
+.imgcard:hover{
+	box-shadow: #666 0 0 9px;
+}
+.imgcard .img span{
+	line-height: 56px;
+     font-size: 16px;
+    overflow: hidden;
+    height: 56px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.topic-list{
+	width: 270px;
+	height: 325px;
+    padding: 12px 16px 13px;
+    border: 1px solid #d8d8d8;
+    padding-bottom: 5px;
+    float: right;
+}
+.topic-list .title{
+	font-size: 18px;
+    padding-bottom: 12px;
+    font-weight: bolder;
+    display: block;
+}
+.tl-content{
+	border-top: 1px solid #e3e3e3;
+    padding-top: 12px;
+    display: inline-block;
+}
+.num{
+	background: url(../images/num.png) no-repeat;
+    padding-left: 32px;
+}
+.topic-list li{
+	height: 16px;
+    line-height: 16px;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.topic-list ul a{
+	width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.num2{
+	background-position: 0 -30px;
+}
+.num3{
+	background-position: 0 -60px;
+}
+.num4{
+	background-position: 0 -90px;
+}
+.num5{
+	background-position: 0 -120px;
+}
+.num6{
+	background-position: 0 -150px;
+}
+.num7{
+	background-position: 0 -180px;
+}
+.num8{
+	background-position: 0 -210px;
+}
+.makeup{
+	position: relative;
+	width: 100%;
+	height: 640px;
+}
+.makeup-lg{
+	width: 408px;
+	height: 87px;
+	background:url(../images/title-beauty.jpg) no-repeat 0 -87px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.item-box{
+	position: absolute;
+	width: 490px;
+	height: 490px;
+	margin-top: 150px;
+    margin-left: 150px;
+}
+.item-box a span{
+	display: block;
+    position: absolute;
+    bottom: 20px;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    background: url(../images/mask-652.png) no-repeat center top;
+    text-shadow: 1px 1px 3px #000;
+}
+.ite-box{
+	position: absolute;
+	width: 490px;
+	height: 490px;
+	margin-top: 150px;
+    right: 150px;
+}
+.ite-box a span{
+	display: block;
+    position: absolute;
+    bottom: 20px;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    background: url(../images/mask-652.png) no-repeat center top;
+    text-shadow: 1px 1px 3px #000;
+}
+.manicure{
+	position: relative;
+	width: 100%;
+	height: 350px;
+}
+.module{
+	position: absolute;
+	margin-top: 50px;
+	width: 100%;
+	height: 300px;
+}
+.module-db{
+	margin: 0 auto;
+	width: 1000px;
+	height: 300px;
+}
+.talk-item{
+	width: 481px;
+	height: 250px;
+	margin-bottom: 50px;
+	float: left;
+    padding-left: 19px;
+}
+.talk-img{
+	float: left;
+    width: 248px;
+    height: 248px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #d8d8d8;
+    transition: all .3s;
+}
+.detail{
+	float: right;
+    width: 230px;
+    height: 228px;
+    margin-top: 9px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    position: relative;
+}
+.item-title{
+	display: block;
+    background-color: #000;
+    font-size: 17px;
+    color: #fff;
+    padding: 16px 20px;
+    margin: 27px auto auto -8px;
+    position: relative;
+    z-index: 101;
+    height: 48px;
+    word-break: break-all;
+}
+.item-des{
+	font-size: 14px;
+    color: #666;
+    padding: 20px;
+}
+.hair{
+	position: relative;
+	width: 100%;
+	height: 815px;
+}
+.hair-lg{
+	width: 448px;
+	height: 87px;
+	background:url(../images/title-beauty.jpg) no-repeat 0 -263px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+embed{
+	position: absolute;
+	width: 652px;
+	height: 340px;
+	margin-left: 160px;
+    margin-top: 165px;
+}
+.modul{
+	position: absolute;
+	margin-top: 543px;
+	width: 100%;
+	height: 300px;
+}
+.frag{
+	position: absolute;
+	width: 304px;
+	height: 340px;
+	right: 165px;
+    margin-top: 165px;
+}
+.frag span{
+	display: block;
+    position: absolute;
+    bottom: 20px;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    background: url(../images/mask-652.png) no-repeat center top;
+    text-shadow: 1px 1px 3px #000;
+}

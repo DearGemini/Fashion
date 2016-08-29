@@ -1,0 +1,354 @@
+
+.header{
+	position: relative;
+	width: 100%;
+	height: 564px;
+    background:url(../images/fashion-repeat.jpg) repeat-x;
+}
+.header-main{
+	width: 1000px;
+	height: 564px;
+	margin-left: 75px;
+	background: url(../images/h-main.jpg);
+	margin: 0 auto;
+	
+}
+.header-right{
+	width: 180px;
+	height: 564px;
+	float: right;
+}
+.header-right {
+    padding: 5px;   
+}
+.header-right img{
+	padding: 5px;
+	border: 2px solid #fbd92b; 
+	margin-left: -10px;
+}
+.trends{
+	position: relative;
+	width: 100%;
+	height: 620px;
+}
+.hd{
+	width: 100%;
+	height:87px ;
+	position: absolute;
+	margin-top: 40px;
+}
+.line{
+	width: 100%; 
+    height: 1px;
+    color: #aaa;
+    position: absolute;
+    top: 38%;
+    z-index: -1;
+}
+.trends-lg{
+	width: 350px;
+	height: 87px;
+	background: #fff url(../images/title-fashion.jpg) no-repeat 0 0;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.trends-left{
+	position: absolute;
+	width: 283px;
+	height: 425px;
+	background: url(../images/t-left.jpg);
+	margin-top: 165px;
+    margin-left: 180px;
+}
+.trends-left:hover{
+	box-shadow: 0px 5px 10px #000;
+}
+.trends-middle{
+	position: absolute;
+	width: 390px;
+	height: 400px;
+	background: black;	
+	margin-top: 178px;
+    margin-left: 470px;
+}
+.trends-m-title{
+	display: block;
+    width: 340px;
+    margin: 0 auto;
+    font-size: 24px;
+    border-bottom: 1px dashed #535353;
+    padding: 20px 0;
+    color: #fff;
+}
+.trends-m-des{
+	width: 340px;
+    font-size: 14px;
+    margin: 15px auto 35px auto;
+    color: #fff;
+}
+.trends-middle img{
+	margin-top: 10px;
+    margin-left: 5px;
+}
+.trends-middle img:hover{
+	transform: scale(0.9);
+}
+.trends-right{
+	position: absolute;
+    width: 270px;
+    height: 425px;
+    padding: 0 14px;
+    border: 1px solid #c1c1c1;
+    background-color: #f2f2f2;
+    color: #000;
+    right: 180px;
+    margin-top: 165px;
+}
+.trends-r-name{
+	height: 73px;
+    margin-top: 19px;
+}
+.trends-r-name i{
+	display: block;
+    width: 73px;
+    height: 73px;
+    float: left;
+    background: url(../images/element.png) -104px -71px;
+}
+.name{
+	position: absolute;
+	font-family: 'Times New Roman';
+    font-size: 30px;
+    color: #834c26;
+    margin-top: -5px;
+    margin-left: 85px;
+}
+.position{
+	position: absolute;
+	font-size: 13px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.trends-r-title{
+	display: block;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #000;
+    border-bottom: 1px solid #a9a9a9;
+}
+.trends-r-title:hover{
+	color: red;
+}
+.trends-right ul{
+	padding-top: 15px;
+}
+.trends-right ul li{
+	list-style: initial;
+    margin-left: 15px;
+}
+.trends-right ul li a{
+	font-size: 14px;
+    color: #000;
+    width: 240px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.trends-right ul li a:hover{
+	color: red;
+}
+.runway-details{
+	width: 100%;
+	height: 990px;
+}
+.runway{
+	width: 100%;
+	height: 645px;
+	background: black;
+}
+
+.module-hd{
+	padding-top: 30px;
+    padding-bottom: 25px;
+}
+.module-line{
+	position: absolute;
+    left: 0;
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+
+}
+.inner-wrapper{
+	width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+.module-title{
+	width: 428px;
+	height: 87px;
+    background: url(../images/title-fashion.jpg) 0 -87px no-repeat;
+    margin: 0 auto;
+}
+.runway-left{
+	position: absolute;
+	width: 340px;
+	height: 500px;
+	margin-left: 165px;
+}
+.runway-middle{
+	position: absolute;
+	width: 340px;
+	height: 500px;
+	margin-left: 519px;
+}
+.runway-right{
+	position: absolute;
+	width: 340px;
+	height: 500px;
+	right: 135px;
+}
+.mask{
+	position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 340px;
+    height: 95px;
+    background: url(../images/mask-340.png);
+    text-align: center;
+}
+.mask a{
+	color: #fff;
+    font-size: 20px;
+    display: block;
+    margin-top: 23px;
+}
+.details{
+	width: 100%;
+	height: 345px;
+}
+.topic-img{
+	position: absolute;
+    width: 248px;
+    height: 248px;
+    margin-top: 50px;
+    margin-left: 145px;
+}
+.topic-img :hover{
+	box-shadow: 0px 2px 10px #000;
+}
+.inf{
+    width: 230px;
+    height: 228px;
+    margin-top: 60px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    position: absolute;
+    margin-left: 393px;
+}
+.inf a{
+	display: block;
+    background-color: #000;
+    font-size: 17px;
+    color: #fff;
+    padding: 16px 20px;
+    margin: 27px auto auto -8px;
+    position: relative;
+    z-index: 101;
+    height: 48px;
+    word-break: break-all;
+}
+.des{
+	font-size: 14px;
+    color: #666;
+    padding: 20px;
+}
+.topic-image{
+	position: absolute;
+    width: 248px;
+    height: 248px;
+    margin-top: 50px;
+    right: 405px;
+}
+.topic-image :hover{
+	box-shadow: 0px 2px 10px #000;
+}
+.info{
+    width: 230px;
+    height: 228px;
+    margin-top: 60px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    position: absolute;
+    right: 174px;
+}
+.info a{
+	display: block;
+    background-color: #000;
+    font-size: 17px;
+    color: #fff;
+    padding: 16px 20px;
+    margin: 27px auto auto -8px;
+    position: relative;
+    z-index: 101;
+    height: 48px;
+    word-break: break-all;
+}
+.designer{
+	width: 100%;
+	height: 700px;
+}
+.designer-lg{
+	width: 255px;
+	height: 86px;
+	background: url(../images/title-fashion.jpg) no-repeat 0 -174px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.clearfix{
+	position: absolute;
+	width: 669px;
+	height: 405px;
+	margin-left: 145px;
+	margin-top: 150px;
+}
+.focus-item{
+	width: 215px;
+	height: 385px;
+	background:repeating-linear-gradient(#000,#000,#000,#fff);
+	display: inline-block;
+}
+.focus-name{
+	color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.focus-des{
+	font-size: 14px;
+    color: #000;
+    padding: 10px 15px 19px 15px;
+    height: 72px;
+}
+.designer-right{
+	position: absolute;
+	width: 300px;
+	height: 500px;
+	background: url(../images/0_508.gif);
+	right: 150px;
+	margin-top: 150px;
+}
+.focus{
+	width: 665px;
+	height: 105px;
+	position: relative;
+    top: 545px;
+    margin-left: 140px;
+}

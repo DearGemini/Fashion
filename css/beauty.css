@@ -291,12 +291,13 @@ padding-left: 20px;
 	margin: 0 auto;
 	padding: 0 20px;
 }
-embed{
+.video{
 	position: absolute;
 	width: 652px;
 	height: 340px;
 	margin-left: 160px;
     margin-top: 165px;
+    background:url(../images/video.png);
 }
 .modul{
 	position: absolute;
